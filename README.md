@@ -1,1 +1,1 @@
-# gazegnn
+# GazeGNN
