@@ -120,7 +120,7 @@
 <head>
 	<title>EyeGraph</title>
 	<meta property="og:image" content="Path to my teaser.png"/>
-	<meta property="og:title" content="EyeGraph" />
+	<meta property="og:title" content="SaccadeX" />
 	<meta property="og:description" content="Paper description." />
 
 	<!-- Get from Google Analytics -->
@@ -138,7 +138,7 @@
 <body>
 	<br>
 	<div style="text-align: center;">
-		<span style="font-size:42px">EyeGraph: Modularity-aware Spatio Temporal Graph Clustering for Continuous Event-based Eye Tracking</span>
+		<span style="font-size:42px">SaccadeX: Directed Acyclic Graph-based Semi-Supervised Learning of Continuous Ocular Dynamics from Sparse Neuromorphic Streams</span>
 		<br> <br>
 		<table align=center width=800px>
 			<table align=center width=650px>
@@ -159,16 +159,6 @@
 				<tr>
 					<td align=center width=200px>
 						<center>
-							<span style="font-size:24px"><a href="https://arghasen10.github.io/">Argha Sen</a></span>
-						</center>
-					</td>
-					<td align=center width=200px>
-						<center>
-							<span style="font-size:24px"><a href="https://sites.google.com/view/ila-gokarn/home">Ila Gokarn</a></span>
-						</center>
-					</td>
-					<td align=center width=200px>
-						<center>
 							<span style="font-size:24px"><a href="https://sites.google.com/view/archan-misra">Archan Misra</a></span>
 						</center>
 					</td>
@@ -180,17 +170,12 @@
 				<tr>
 					<td align=center width=120px>
 						<div style="text-align: center;">
-							<span style="font-size:24px"><a href='https://openreview.net/pdf?id=YxuuzyplFZ'>[Paper]</a></span>
+							<span style="font-size:24px"><a href='https://github.com/eye-tracking-for-physiological-sensing/SaccadeX'>[Paper]</a></span>
 						</div>
 					</td>
 					<td align=center width=120px>
 						<div style="text-align: center;">
-							<span style="font-size:24px"><a href='https://github.com/eye-tracking-for-physiological-sensing/eyegraph'>[GitHub]</a></span>
-						</div>
-					</td>
-					<td align=center width=120px>
-						<div style="text-align: center;">
-							<span style="font-size:24px"><a href='https://forms.office.com/r/PgHHLxgMNj'>[Dataset]</a></span><br>
+							<span style="font-size:24px"><a href='https://github.com/eye-tracking-for-physiological-sensing/SaccadeX'>[GitHub]</a></span>
 						</div>
 					</td>
 				</tr>
@@ -231,7 +216,7 @@
 		<tr>
 			<td>
 				<div style="text-align: justify;">
-					Continuous tracking of eye movement dynamics plays a significant role in developing a broad spectrum of human-centered applications, such as cognitive skills (visual attention and working memory) modeling, human-machine interaction, biometric user authentication, and foveated rendering. Recently neuromorphic cameras have garnered significant interest in the eye-tracking research community, owing to their sub-microsecond latency in capturing intensity changes resulting from eye movements. Nevertheless, the existing approaches for event-based eye tracking suffer from several limitations: dependence on RGB frames, label sparsity, and training on datasets collected in controlled lab environments that do not adequately reflect real-world scenarios. To address these limitations, in this paper, we propose a dynamic graph-based approach that uses a neuromorphic event stream captured by Dynamic Vision Sensors (DVS) for high-fidelity tracking of pupillary movement. More specifically, first, we present EyeGraph, a large-scale multi-modal near-eye tracking dataset collected using a wearable event camera attached to a head-mounted device from 40 participants -- the dataset was curated while mimicking in-the-wild settings, accounting for varying mobility and ambient lighting conditions. Subsequently, to address the issue of label sparsity, we adopt an unsupervised topology-aware approach as a benchmark. To be specific, (a) we first construct a dynamic graph using Gaussian Mixture Models (GMM), resulting in a uniform and detailed representation of eye morphology features, facilitating accurate modeling of pupil and iris. Then (b) apply a novel topologically guided modularity-aware graph clustering approach to precisely track the movement of the pupil and address the label sparsity in event-based eye tracking. We show that our unsupervised approach has comparable performance against the supervised approaches while consistently outperforming the conventional clustering approaches.
+					Continuous eye tracking is critical for applications in human-computer interaction, including biometric authentication, gaze-based systems, and affective-cognitive modeling. Recent interest in neuromorphic event cameras has grown due to their sub-microsecond latency in capturing eye movement dynamics. However, existing event-based eye-tracking methods face challenges such as limited labels, sub-optimal event accumulation, and a lack of frameworks that fail to capture fine-grained temporal relationships within event volumes. To address these, we propose a directed acyclic graph-based semi-supervised approach with a framework that is adaptable across multiple closely related tasks, including gaze tracking, pupil tracking, and eye-based emotion recognition. Our approach enables efficient spatiotemporal learning with 95.5\% parameter reduction compared to existing methods, achieving significant performance improvements: 38.75\% improvement in pupil tracking accuracy, 68\% and 63\% reductions in gaze angle error on EV-Eye and EBV-Eye datasets respectively, and 3.3\% improvement in emotion recognition across all evaluated datasets.
 				</div>
 			</td>
 		</tr>
@@ -242,7 +227,7 @@
 	<table align=center width=800px>
 		<br>
 		<tr><div style="text-align: center;">
-			<span style="font-size:28px">&nbsp;<a href='https://github.com/eye-tracking-for-physiological-sensing/eyegraph/'>[GitHub]</a>
+			<span style="font-size:28px">&nbsp;<a href='https://github.com/eye-tracking-for-physiological-sensing/SaccadeX/'>[GitHub]</a>
 			</div>
 		</tr>
 		</span>
@@ -251,7 +236,7 @@
 	<table align=center width=800px>
 		<br>
 		<tr><div style="text-align: center;">
-			<span style="font-size:28px">&nbsp;<a href='https://neurips.cc/virtual/2024/poster/97635'>[Promo Video]</a>
+			<span style="font-size:28px">&nbsp;<a href='https://github.com/eye-tracking-for-physiological-sensing/SaccadeX/'>[Promo Video]</a>
 			</div>
 		</tr>
 		</span>
@@ -273,11 +258,11 @@
 	<table align=center width=500px>
 		<center><h1>Paper</h1></center>
 		<tr>
-			<td><a href="https://openreview.net/pdf?id=YxuuzyplFZ"><img class="layered-paper-big" style="height:175px" src="./resources/Paper.png"/></a></td>
+			<td><a href="https://github.com/eye-tracking-for-physiological-sensing/SaccadeX/"><img class="layered-paper-big" style="height:175px" src="./resources/Paper.png"/></a></td>
 			<td><span style="font-size:14pt">
 				<b>EyeGraph</b><br>
 				In OpenReview, 2024.<br>
-				(hosted on <a href="https://openreview.net/pdf?id=YxuuzyplFZ">OpenReview</a>)<br>
+				(hosted on <a href="https://github.com/eye-tracking-for-physiological-sensing/SaccadeX/">OpenReview</a>)<br>
 				<!-- (<a href="./resources/camera-ready.pdf">camera ready</a>)<br> -->
 				<span style="font-size:4pt"><a href=""><br></a>
 				</span>
