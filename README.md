@@ -12,7 +12,7 @@ Continuous eye tracking is critical for applications in human-computer interacti
   <rect width="100%" height="100%" fill="#000000" /> <!-- Your color here -->
   <img src="./resources/DAG_diagram.png"><br />
 </svg>
-<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
   <rect width="100%" height="100%" fill="white"/>
   <image href="./resources/DAG_diagram.png" width="100%" height="100%"/>
 </svg>
