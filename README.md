@@ -8,7 +8,8 @@ Continuous eye tracking is critical for applications in human-computer interacti
 
 ## Overview
 
-<img src="https://github.com/eye-tracking-for-physiological-sensing/eyegraph/blob/main/resources/EyeGraph_overview.png"><br />
+<img src="./resources/DAG_diagram.png"><br />
+<img src="./resources/SemiSupervisedPipeline.png"><br />
 
 ## Citation
 
