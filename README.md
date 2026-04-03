@@ -14,7 +14,7 @@ Continuous eye tracking is critical for applications in human-computer interacti
 
 If you find our work useful and/or use it in your research work, including the methods and this repository, please consider giving a star ⭐ and citing our paper.
 ```bibtex
-@@InProceedings{Bandara_2026_WACV,
+@InProceedings{Bandara_2026_WACV,
     author    = {Bandara, Nuwan and Kandappu, Thivya and Misra, Archan},
     title     = {SaccadeX: Directed Acyclic Graph-based Semi-Supervised Learning of Continuous Ocular Dynamics from Sparse Neuromorphic Streams},
     booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
