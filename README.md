@@ -1,6 +1,6 @@
 # SaccadeX: Directed Acyclic Graph-based Semi-Supervised Learning of Continuous Ocular Dynamics from Sparse Neuromorphic Streams
 
-[Project Page](https://eye-tracking-for-physiological-sensing.github.io/SaccadeX/) | [Paper](https://openaccess.thecvf.com/content/WACV2026/papers/Bandara_SaccadeX_Directed_Acyclic_Graph-based_Semi-Supervised_Learning_of_Continuous_Ocular_Dynamics_WACV_2026_paper.pdf) | [Supplemental](https://openaccess.thecvf.com/content/WACV2026/supplemental/Bandara_SaccadeX_Directed_Acyclic_WACV_2026_supplemental.pdf)
+[Project Page](https://eye-tracking-for-physiological-sensing.github.io/SaccadeX/) | [Paper](https://openaccess.thecvf.com/content/WACV2026/papers/Bandara_SaccadeX_Directed_Acyclic_Graph-based_Semi-Supervised_Learning_of_Continuous_Ocular_Dynamics_WACV_2026_paper.pdf) | [Supplemental](https://openaccess.thecvf.com/content/WACV2026/supplemental/Bandara_SaccadeX_Directed_Acyclic_WACV_2026_supplemental.pdf) | [Poster](./resources/saccadex_Poster.png) | [Video](https://youtu.be/akiHGwQ0Iow?si=bgR0ysT_5KqiRrYf)
 
 ## Abstract
 
